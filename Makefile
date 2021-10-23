@@ -6,6 +6,10 @@ SUBLEVEL =
 EXTRAVERSION =
 NAME =
 
+export CROSS_COMPILE=arm-linux-gnueabihf-
+export ARCH=arm
+export DEVICE_TREE="zynq-arty-z7"
+
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
 # More info can be located in ./README
